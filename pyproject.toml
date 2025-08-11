@@ -1,0 +1,27 @@
+[project]
+name = "ai-agents-for-beginners"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "autogen-agentchat>=0.7.1",
+    "autogen-core>=0.7.1",
+    "autogen-ext[azure]>=0.7.1",
+    "azure-ai-inference~=1.0.0b9",
+    "azure-ai-projects==1.0.0b11",
+    "azure-search-documents>=11.5.2",
+    "chainlit>=2.6.3",
+    "chromadb~=0.6.3",
+    "datasets>=4.0.0",
+    "ipykernel~=6.29.5",
+    "langfuse>=3.2.1",
+    "mcp[cli]>=1.12.2",
+    "mistralai~=0.4.2",
+    "openai>=1.98.0",
+    "openlit>=1.34.41",
+    "pandas>=2.3.1",
+    "pillow==11.0.0",
+    "python-dotenv~=1.0.1",
+    "semantic-kernel[azure,mcp]>=1.29.0",
+]
